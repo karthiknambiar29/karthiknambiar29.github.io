@@ -50,7 +50,7 @@ var home_page = {
     },
     mounted() {
         // this.getUser();
-        
+        this.inhert();
     }
 };
 
