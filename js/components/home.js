@@ -38,6 +38,9 @@ var home_page = {
                 console.log(error)
             }
         }
+    },
+    mounted() {
+        this.getUser();
     }
 };
 
