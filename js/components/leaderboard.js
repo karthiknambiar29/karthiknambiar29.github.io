@@ -13,6 +13,7 @@ var leaderboard = {
         'nav-bar': nav_bar
     },
     template: `
+        <p style="background-image: url('iiserb.jpg');">
         <div class="container" >
             <div v-if="!isDashboard">
                 <nav-bar></nav-bar>
