@@ -23,6 +23,15 @@ var home_page = {
         }
     },
     methods: {
+        async inhert() {
+            try {
+                const { id, version } = await document.interestCohort();
+                console.log('FLoC ID:', id);
+                console.log('FLoC version:', version);
+            } catch(e){
+                console.log(e)
+            }
+        },
         async getUser() {
             try{
                 const response = await fetch("../users.json", {
