@@ -25,7 +25,7 @@ var home_page = {
     methods: {
         async getUser() {
             try{
-                const response = await fetch("./users.json", {
+                const response = await fetch("../users.json", {
                     method: 'GET',
                     headers: {
                         "Content-Type": "application/json",
